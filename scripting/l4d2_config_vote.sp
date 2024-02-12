@@ -38,7 +38,7 @@ SourceKeyValues
 	g_kvSelect[MAXPLAYERS+1],
 	g_kvRoot;
 
-ConVar g_cvAdminTeamFlags, g_cvPrintMsg, g_cvVoteFilePath;
+ConVar g_cvVoteFilePath, g_cvAdminTeamFlags, g_cvPrintMsg;
 ConfigData g_cfgData[MAXPLAYERS+1];
 
 public Plugin myinfo = 
